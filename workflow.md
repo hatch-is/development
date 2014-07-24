@@ -9,4 +9,5 @@ When developing for hatch keep this simple workflow.
 3. Work on the issue in new branch `git checkout master && git pull && git checkout -b fix-123-require-email-address`
 4. Commit your work `git commit -m "fix(athlete): require email address" -m "Closes #123"`
 5. Push your work `git push origin fix-123-require-email-address :`
-6. Create pull request and assign to `@jrschumacher` (no need to comment on issue github automatically adds it when it detects the `#`
+6. Create pull request and assign to `@jrschumacher`
+    7. **no need** to comment on issue about pull request Github automatically adds it with the `Close #123`
